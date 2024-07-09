@@ -21,6 +21,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-bottom: 74px;
 
 }
 
@@ -65,3 +66,61 @@ body {
     font-weight: 600;
 }
 /* Banner styles ends here */
+/* Devlopment main styles starts here */
+/* my inspiration style starts here */
+.my-inspiration-container{
+    width: 1140px;
+height: 775px;
+
+margin: 0 auto;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+.my-inspiration-container h1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+text-align: center;
+margin-bottom: 24px;
+}
+.my-inspiration-container p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 48px;
+}
+.my-inspiration-container iframe{
+    width: 1140px;
+height: 614px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+
+}
+/* My target style starts here */
+.target-container{
+    width: 1140px;
+height: 460px;
+border: 2px solid red;
+margin: 0 auto;
+}
+.taget-content{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.target-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
