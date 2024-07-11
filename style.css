@@ -67,95 +67,77 @@ body {
     color: rgb(255, 255, 255);
     font-weight: 600;
 }
+
 /* Banner styles ends here */
-/* Devlopment main styles starts here */
-.devlopment{
-    display: flex;
-    /* align-items: center; */
-    width: 1140px;
-
-height: 1395px;
-margin: 0 auto;
-}
-.part-one{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 25%;
-}
-.part-two{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 25%;
-
-}
 /* my inspiration style starts here */
-.my-inspiration-container{
+/* .my-inspiration-container {
     width: 1140px;
-height: 775px;
+    height: 775px;
 
-margin: 0 auto;
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-.my-inspiration-container h1{
+
+.my-inspiration-container h1 {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 32px;
-font-weight: 800;
-text-align: center;
-margin-bottom: 24px;
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
 }
-.my-inspiration-container p{
+
+.my-inspiration-container p {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-margin-bottom: 48px;
-text-align: center;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    text-align: center;
 }
- .iframe-content{
+
+.iframe-content {
     width: 1140px;
-height: 614px;
-box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.2);
-border-radius: 16px;
-padding: 15px;
+    height: 614px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 15px;
 
 }
+
 .iframe-content>iframe {
     width: 100%;
     height: 100%;
-}
+} */
 
-.item>p{
+.item>p {
     color: rgb(13, 19, 33);
 
-    
+
 }
-.itm>h1{
-    
-}
+
+
 /* My target style starts here */
-.target-container{
+.target-container {
     width: 1140px;
-height: 460px;
-border: 2px solid red;
-margin: 0 auto;
+    height: 460px;
+    border: 2px solid red;
+    margin: 0 auto;
 }
-.target-content{
+
+.target-content {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     text-align: center;
 }
-.target-description{
+
+.target-description {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -163,49 +145,76 @@ margin: 0 auto;
     text-align: center;
     padding-top: 24px;
 }
-.target-skills{
+
+.target-skills {
     display: flex;
     gap: 24px;
-    justify-content:center;
+    justify-content: center;
     text-align: center;
     border-radius: 16px;
-    margin-top:48px;
-    
+    margin-top: 48px;
 
 
-    
+
+
 }
-.item{
+
+.item {
     padding: 40px;
     flex: 1;
     text-align: left;
 }
-.target1{
-   
+
+.target1 {
+
     background-color: rgba(255, 76, 30, 0.05);
     border-radius: 16px;
 }
-.target2{
+
+.target2 {
     border-radius: 16px;
-background-color: rgba(0, 76, 232, 0.05);
+    background-color: rgba(0, 76, 232, 0.05);
 }
-.target3{
+
+.target3 {
     border-radius: 16px;
-background-color: rgba(255, 223, 0, 0.05);
+    background-color: rgba(255, 223, 0, 0.05);
 }
-.flex-container {
+/* devlopment style */
+.parent{
+    width: 1140px;
+
+height: 1395px;
+margin: 0 auto;
+}
+.child-1{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.child-1-content{
+
+}
+.child-2{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.child-2-content{
+
+}
+.child-3{
     display: flex;
-    align-items: stretch;
-    background-color: #f1f1f1;
-  }
-  
-  .flex-container > div {
-    background-color: DodgerBlue;
-    color: white;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-  }
+    justify-content: center;
+    align-items: center;
+}
+/* inspiration styles */
+.inspiration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1140px;
 
-
+    height: 1395px;
+    margin: 0 auto;
+}
